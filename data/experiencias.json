@@ -1,0 +1,16 @@
+[
+  { "id": 1, "nombre": "Cenote Azul", "categoria": "naturaleza", "precio": 350, "cupo": 15, "icono": "&#127754;" },
+  { "id": 2, "nombre": "Zona arqueológica", "categoria": "cultura", "precio": 480, "cupo": 20, "icono": "&#128511;" },
+  { "id": 3, "nombre": "Ruta en tirolesa", "categoria": "aventura", "precio": 750, "cupo": 10, "icono": "&#127796;" },
+  { "id": 4, "nombre": "Reserva de tortugas", "categoria": "naturaleza", "precio": 420, "cupo": 18, "icono": "&#128034;" },
+  { "id": 5, "nombre": "Comunidad maya", "categoria": "cultura", "precio": 550, "cupo": 12, "icono": "&#127963;&#65039;" },
+  { "id": 6, "nombre": "Kayak en manglar", "categoria": "aventura", "precio": 680, "cupo": 8, "icono": "&#128758;" },
+  { "id": 7, "nombre": "Estadio Azteca", "categoria": "fútbol", "precio": 250, "cupo": 50, "icono": "&#127967;&#65039;" },
+  { "id": 8, "nombre": "Allianz Arena", "categoria": "fútbol", "precio": 550, "cupo": 50, "icono": "&#127967;&#65039;" },
+  { "id": 9, "nombre": "Tren Maya", "categoria": "aventura", "precio": 202, "cupo": 40, "icono": "&#128649;" },
+  { "id": 10, "nombre": "Bernabeu", "categoria": "fútbol", "precio": 650, "cupo": 50, "icono": "&#127967;&#65039;" },
+  { "id": 11, "nombre": "Tour de Tacos", "categoria": "gastronomía", "precio": 300, "cupo": 12, "icono": "&#127790;" },
+  { "id": 12, "nombre": "Clase de Cocina Maya", "categoria": "gastronomía", "precio": 450, "cupo": 8, "icono": "&#127859;" },
+  { "id": 13, "nombre": "Cata de Tequila", "categoria": "gastronomía", "precio": 500, "cupo": 15, "icono": "&#129346;" },
+  { "id": 14, "nombre": "Cena en la Playa", "categoria": "gastronomía", "precio": 1200, "cupo": 20, "icono": "&#127869;&#65039;" }
+]
