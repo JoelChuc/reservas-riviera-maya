@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas Riviera Maya</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header class="encabezado">
+        <div>
+            <h1>Reservas Riviera Maya</h1>
+            <p>Selecciona y calcula tu experiencia turística</p>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <section class="panel">
+            <div class="panel-encabezado">
+                <h2>Experiencias disponibles</h2>
+                <p id="contador">0 experiencias encontradas</p>
+            </div>
+
+            <div class="panel-controles">
+                <div class="controles-busqueda">
+                    <input type="text" id="buscador" placeholder="Buscar destino...">
+                    <input type="number" id="filtroPrecioMax" placeholder="Precio máx. ($)" min="0">
+                    <button id="btnPrecio">Ordenar: Menor a Mayor</button>
+                </div>
+
+                <div class="filtros" aria-label="Filtros del catálogo">
+                    <button class="activo" data-categoria="todas">Todas</button>
+                    <button data-categoria="naturaleza">Naturaleza</button>
+                    <button data-categoria="cultura">Cultura</button>
+                    <button data-categoria="aventura">Aventura</button>
+                    <button data-categoria="fútbol">Fútbol</button>
+                    <button data-categoria="gastronomía">Gastronomía</button>
+                </div>
+            </div>
+        </section>
+        
+        <section id="catalogo" class="catalogo"></section>
+
+        <!-- Sección de Reservaciones Limpia -->
+        <section class="resumen">
+            <h2>Mi reservación</h2>
+            
+            <div id="listaReservas">
+                <p class="mensaje-vacio">No hay experiencias seleccionadas.</p>
+            </div>
+            
+            <div class="controles-resumen">
+                <p class="texto-personas">Total de personas: <span id="totalPersonas">0</span></p>
+                <p class="total">Total a pagar: <span id="total">$0 MXN</span></p>
+                <button id="btnVaciar" class="btn-vaciar" style="display: none;">Vaciar reservación</button>
+            </div>
+        </section>
+    </main>
+
+    <footer><p>Proyecto académico de desarrollo front-end</p></footer>
+</body>
+</html>
