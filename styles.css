@@ -236,7 +236,7 @@ footer {
   color: var(--oscuro);
 }
 
-/* El botón hereda el padding y borde redondeado de tu etiqueta button general */
+/* El botón hereda el padding y borde redondeado de la etiqueta button general */
 .btn-vaciar {
   background-color: #d9534f;
   color: var(--claro);
